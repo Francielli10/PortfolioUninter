@@ -1,0 +1,470 @@
+/*importação dos estilos de fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Libre Baskerville';
+    color: black;
+}
+
+/* HEADER */
+
+.header-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #d9d9d9;
+    background-image: url(/img.png);
+    image-orientation:initial;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+
+h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+    color:#888282;
+}
+
+h2{
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    color:#888282;
+}
+
+.socialmedia{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.socialmedia a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 4rem;
+    border: 1px solid #888282;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia a:hover{
+    background-color: white;
+    font-weight: bold;
+}
+
+
+/*MENU*/
+.menu{
+   background-color:#d9d9d9;
+   width: 1460px;
+   height: 60px;
+   position: sticky;
+   top:0;
+   border: 2px solid black;
+   border-radius: 10px 10px 10px 10px;
+   margin-left: 1px;
+}
+
+.menu-itens ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.menu-itens ul li  /*falar diretamente com os itens*/{
+    margin: 10px 0;
+    color: black; 
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    font-size: 20px;
+    display: inline;
+    font-family: 'Nunito';    
+}
+
+.menu-itens ul li a:hover{
+    font-weight: bold;
+}
+
+#homemenu{
+    margin-left: 2rem;
+    position: center;
+}
+
+#sobremenu{
+    margin-left: 5rem;
+    position: center;
+}
+
+#formacaomenu{
+    margin-left: 6rem;
+    position: center;
+}
+
+#projetosmenu{
+    margin-left: 8rem;
+    position: center;
+}
+
+#contatomenu{
+    margin-left: 9rem;
+    position: center;
+}
+
+.container{
+    background-color: white;
+    height: 420vh;
+
+}
+
+/*SOBRE MIM*/
+.sobre{
+    width: 1200px;
+    height: 600px;
+    background-color: #d9d9d9;
+    color:black;
+    border: 3px solid #d9d9d9;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url('/img\ 02.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+}
+
+#titulo{
+    font-size: 60px;
+    color:#a09a9a;
+    text-align: center;
+    font-family: 'Rabik';
+}
+
+#p1{
+    font-size: 24px;
+    text-align:center;
+    font-family: 'Nunito';
+}
+
+.formacao{
+    width: 1200px;
+    height: 600px;
+    background-color: #d9d9d9;
+    color:black;
+    border: 3px solid #d9d9d9;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(/img\ 03.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#p2{
+    font-size: 22px;
+    text-align:left;
+    font-family: 'Nunito';
+}
+
+/*PROJETOS*/
+.projetos{
+    width: 1200px;
+    height: 150px;
+    background-color: #d9d9d9;
+    color:black;
+    border: 3px solid #d9d9d9;
+    margin: auto;
+    border-radius: 10px; 
+}  
+
+#projeto1{    
+    width: 340px;
+    height: 200px;
+    border-radius: 5% ;
+    border: 1px solid black;
+    background-image: url(/img\ projetos\ python.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    text-align: center;
+    font-family: 'Rabik';
+    font-size: 28px;
+}
+
+#linkprojeto1{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+#projeto2{   
+    margin-left: 27rem;
+    margin-top: -16.9%;
+    width: 340px;
+    height: 200px;
+    border-radius: 5% ;
+    border: 1px solid black;
+    background-image: url(./img\ projetos\ python.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    text-align: center;
+    font-family: 'Rabik';
+    font-size: 28px;
+}
+
+#linkprojeto2{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#projeto3{   
+    margin-left: 54rem;
+    margin-top: -16.9%;
+    width: 340px;
+    height: 200px;
+    border-radius: 5% ;
+    border: 1px solid black;
+    background-image: url(./img\ projetos\ python.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    text-align: center;
+    font-family: 'Rabik';
+    font-size: 28px;
+}
+
+#linkprojeto3{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#projeto4{ 
+    margin-top: 15%;
+    width: 340px;
+    height: 200px;
+    border-radius: 5% ;
+    border: 1px solid black;
+    background-image: url(/img\ projetos\ python.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    text-align: center;
+    font-family: 'Rabik';
+    font-size: 28px;
+}
+
+#linkprojeto4{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#projeto5{ 
+    margin-left: 27rem;
+    margin-top: -16.9%;
+    width: 340px;
+    height: 200px;
+    border-radius: 5% ;
+    border: 1px solid black;
+    background-image: url(/img\ projetos\ figma.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    text-align: center;
+    font-family: 'Rabik';
+    font-size: 28px;
+}
+
+#linkprojeto5{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#projeto6{ 
+    margin-left: 54rem;
+    margin-top: -16.9%;
+    width: 340px;
+    height: 200px;
+    border-radius: 5% ;
+    border: 1px solid black;
+    background-image: url(/img\ projetos\ python.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    text-align: center;
+    font-family: 'Rabik';
+    font-size: 28px;
+}
+
+#linkprojeto6{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+}
+/*FORMULÁRIO*/
+.contato{
+    width: 1200px;
+    height: 600px;
+    background-color: #d9d9d9;
+    border: 3px solid #d9d9d9;
+    margin: auto;
+    border-radius: 10px; 
+    font-size: 60px;
+    font-family: 'Rabik';
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.formulario{
+    max-width: 750px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.formulario input, form textarea{
+    border: 0;
+    outline: 0;
+    padding: 0.8em;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 16px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    color:#a09a9a;
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    resize: none;
+}
+
+.formulario input:focus, .formulario textarea:focus {
+    color:black; 
+    -moz-box-shadow: 0 0px 2px black !important;
+    -webkit-box-shadow: 0 0px 2px black !important;
+    box-shadow: 0 0px 2px black !important;
+}
+
+.formulario .btn-submit {
+    color: #fff;
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 50px;
+}
+
+.formulario .btn-submit:hover {
+ 
+    background-color:rgba(0, 0, 0, 0.649);
+    -moz-box-shadow: 0 1px 1px 1px black;
+    -webkit-box-shadow: 0 1px 1px 1px black;
+    box-shadow: 0 1px 1px 1px black;
+}
+
+.formulario textarea {
+    height: 174px;
+    width: 340px;
+    margin-left: 5%;
+}
+
+.metade {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+
+.right { width:50%;}
+
+.left  { margin-right:2%; }
+
+@media (max-width: 768px) {
+  
+  .metade { width:100%; float:none; margin-bottom:0; }
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color:#d9d9d9;
+    align-items: center;
+
+}
+
+#imglinkedin{
+    padding-left: 50%;
+}
+
+#imglinkedin:hover{
+    pointer-events: invisible;
+}
+
+#imggithub{
+    padding-left: 50%;
+}
+
+a:hover{
+    background-color: transparent;
+}
