@@ -16,7 +16,7 @@ body{
     height: 100vh;
     width: 100%;
     background-color: #d9d9d9;
-    background-image: url(/img.png);
+    background-image: url('img.png');
     image-orientation:initial;
     background-repeat: no-repeat;
     background-position:right;
@@ -140,7 +140,7 @@ h2{
     border: 3px solid #d9d9d9;
     margin: auto;
     border-radius: 10px;
-    background-image: url('/img\ 02.png');
+    background-image: url('img\ 02.png');
     background-repeat: no-repeat;
     background-position: bottom;
    
@@ -167,7 +167,7 @@ h2{
     border: 3px solid #d9d9d9;
     margin: auto;
     border-radius: 10px;
-    background-image: url(/img\ 03.png);
+    background-image: url('/img\ 03.png');
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -194,7 +194,7 @@ h2{
     height: 200px;
     border-radius: 5% ;
     border: 1px solid black;
-    background-image: url(/img\ projetos\ python.png);
+    background-image: url('/img\ projetos\ python.png');
     background-repeat: no-repeat;
     background-position: top;
     color: white;
@@ -224,7 +224,7 @@ h2{
     height: 200px;
     border-radius: 5% ;
     border: 1px solid black;
-    background-image: url(./img\ projetos\ python.png);
+    background-image: url('/img\ projetos\ python.png');
     background-repeat: no-repeat;
     background-position: top;
     color: white;
@@ -253,7 +253,7 @@ h2{
     height: 200px;
     border-radius: 5% ;
     border: 1px solid black;
-    background-image: url(./img\ projetos\ python.png);
+    background-image: url('/img\ projetos\ python.png');
     background-repeat: no-repeat;
     background-position: top;
     color: white;
@@ -281,7 +281,7 @@ h2{
     height: 200px;
     border-radius: 5% ;
     border: 1px solid black;
-    background-image: url(/img\ projetos\ python.png);
+    background-image: url('/img\ projetos\ python.png');
     background-repeat: no-repeat;
     background-position: top;
     color: white;
@@ -310,7 +310,7 @@ h2{
     height: 200px;
     border-radius: 5% ;
     border: 1px solid black;
-    background-image: url(/img\ projetos\ figma.png);
+    background-image: url('/img\ projetos\ figma.png');
     background-repeat: no-repeat;
     background-position: top;
     color: white;
@@ -339,7 +339,7 @@ h2{
     height: 200px;
     border-radius: 5% ;
     border: 1px solid black;
-    background-image: url(/img\ projetos\ python.png);
+    background-image: url('/img\ projetos\ python.png');
     background-repeat: no-repeat;
     background-position: top;
     color: white;
